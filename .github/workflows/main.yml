@@ -1,9 +1,9 @@
 name: Generate Snake
 
 on:
-  schedule:
-    # cada dia a les 00:00 UTC
-    - cron: "0 0 * * 1"
+  #schedule:
+    # cada dia dilluns les 00:00 UTC
+  #  - cron: "0 0 * * 1"
   workflow_dispatch:
 
 permissions:
